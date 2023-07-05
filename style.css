@@ -1,0 +1,212 @@
+nav{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+ul{
+    float: right;
+    margin: 1%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px 10px 20px ;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    z-index: 9999;
+}
+
+li:hover{
+    background-color:black;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 1%;
+    
+}
+
+@media only screen and (max-width: 1008px) {
+    .logo {
+      display: none;
+    }
+    nav ul {
+        float: none;
+        text-align: center;
+        position: relative;
+        top: 3.5pc;
+    }
+  }
+
+  .logo1 {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 1%;
+}
+
+  @media only screen and (min-width: 1009px) {
+    .logo1 {
+        display: none;
+    }
+}
+
+
+.box1{
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+
+.img1{
+    width: 100%;
+}
+
+.fakeimg1 {
+    width: 100%;
+}
+.fakeimg2 {
+    width: 100%;
+  }
+  .fakeimg3 {
+    height: 400px;
+    background-color: black;
+  }
+  .fakeimg4 {
+    width: 100%;
+}
+.fakeimg5 {
+    width: 60%;
+}
+.fakeimg6 {
+    width: 75%;
+}
+.fakeimg7 {
+    width: 65%;
+}
+.fakeimg8 {
+    width: 80%;
+}
+
+.u1{
+    color: blue;
+    cursor: pointer;
+}
+.color1{
+    color: red;
+}
+.color2{
+    color: green;
+}
+
+.box2{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(215, 248, 245);
+    position: relative;
+    top: 8px;
+}
+.text1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: large;
+    font-weight: lighter;
+    top: 20px;
+}
+
+#text2{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    /* top: 90px; */
+}
+
+.img2{
+    width: 100%;
+}
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+.text3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box3{
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    padding: 20px;
+}
+
+.icon1{
+    font-size: 70px;
+    color: rgb(5, 187, 5);
+}
+
+.text4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.box4{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.submit1{
+    padding: 12px;
+    width: 150px; 
+    font-size: larger;
+    background-color: rgb(215, 248, 245);
+    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(147, 231, 224);
+  }
+
